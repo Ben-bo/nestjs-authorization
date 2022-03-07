@@ -20,6 +20,8 @@ export class RolesGuard implements CanActivate {
     //data user get from login
     // const {user}=context.switchToHttp().getRequest()
 
+    //you can use casl library for advanced features like permission filter instead role
+
     const user: User = {
       name: 'beni',
       roles: [Role.ADMIN],
